@@ -1,0 +1,116 @@
+:root {
+  --colorPrimaire: #9356dc;
+  --colorSecondaire: #ff79da;
+  --colorTertiaire: #99e2d0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  img {
+    height: 30%;
+    width: 30%;
+    margin: 1rem;
+  }
+}
+
+body {
+  font-family: "Roboto";
+  margin: 0%;
+}
+
+header {
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(236, 234, 234, 0.397);
+  margin: 0;
+}
+.location {
+  .fa-map-marker-alt {
+    padding: 1rem;
+  }
+}
+.Slight {
+  text-align: center;
+  H1 {
+    font-size: -webkit-xxx-large;
+    margin: 0%;
+  }
+  p {
+    font-size: large;
+    margin: 0%;
+  }
+  button {
+    background-image: linear-gradient(#ff79da, #9356dc);
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 1% 20% 1% 20%;
+    margin: 1rem;
+  }
+}
+
+.Functioning {
+  nav {
+    li {
+      display: flex;
+      list-style: none;
+      justify-content: space-evenly;
+      background-color: lightgray;
+      margin: 1rem;
+      border-radius: 1rem;
+    }
+    i {
+      padding: 2rem;
+    }
+    p {
+      background-color: #9356dc;
+      padding: 1rem;
+      border-radius: 50%;
+      position: absolute;
+      left: 1rem;
+    }
+  }
+}
+
+section {
+  h2 {
+    margin-top: 3rem;
+  }
+  margin: 1rem;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  img {
+    height: 15rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+  }
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.789);
+  color: white;
+  padding: 2rem;
+
+  h2 {
+    font-family: "Shrikhand";
+  }
+
+  nav {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
