@@ -37,17 +37,21 @@ header {
 .location .fa-map-marker-alt {
   padding: 1rem;
 }
+.location form {
+  margin: 1rem 0rem;
+}
 
 .Slight {
   text-align: center;
 }
 .Slight H1 {
-  font-size: -webkit-xxx-large;
+  font-size: 2rem;
   margin: 0%;
 }
 .Slight p {
-  font-size: large;
+  font-size: 1rem;
   margin: 0%;
+  color: gray;
 }
 .Slight button {
   background-image: linear-gradient(#ff79da, #9356dc);
@@ -59,41 +63,69 @@ header {
   margin: 1rem;
 }
 
-.Functioning nav li {
-  display: flex;
-  list-style: none;
-  justify-content: space-evenly;
-  background-color: lightgray;
-  margin: 1rem;
-  border-radius: 1rem;
+.Functioning {
+  margin: 2rem;
 }
-.Functioning nav i {
-  padding: 2rem;
-}
-.Functioning nav p {
-  background-color: #9356dc;
-  padding: 1rem;
+.Functioning p {
   border-radius: 50%;
-  position: absolute;
-  left: 1rem;
+  background-color: #9356dc;
+  color: white;
+  position: relative;
+  right: 28px;
+  padding: 4px 8px;
+}
+.Functioning li {
+  display: flex;
+  background-color: #f6f6f6;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 4px 4px 2px lightgrey;
+  border-radius: 20px 20px;
+  text-align: center;
+  height: 58px;
+}
+.Functioning li i {
+  padding: 22px;
+  color: grey;
 }
 
-section {
-  margin: 1rem;
+.Restaurant {
+  height: 100%;
+  background-color: rgba(210, 210, 210, 0.33);
 }
-section h2 {
-  margin-top: 3rem;
+.Restaurant h2 {
+  padding: 1rem 0 0 1rem;
 }
-section a {
+.Restaurant article {
+  margin: 3rem;
+  background-color: white;
+  border-radius: 30px 30px 30px 30px;
+}
+.Restaurant article a {
   text-decoration: none;
   color: black;
 }
-section img {
-  height: 15rem;
+.Restaurant article img {
+  height: 13rem;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
   border-radius: 2rem 2rem 0 0;
+}
+.Restaurant article h3 {
+  margin: 1rem;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+.Restaurant article p {
+  margin: 1rem;
+  padding: 0 0 1rem 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
 }
 
 footer {
@@ -103,6 +135,7 @@ footer {
 }
 footer h2 {
   font-family: "Shrikhand";
+  font-weight: normal;
 }
 footer nav {
   list-style: none;
