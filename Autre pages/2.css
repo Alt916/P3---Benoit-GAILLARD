@@ -11,6 +11,18 @@ header {
   background-color: white;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
 }
+header a {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: auto;
+}
+header i {
+  position: absolute;
+  left: 2rem;
+  top: 27%;
+  display: flex;
+  color: #000;
+}
 header img {
   height: 30%;
   width: 30%;
@@ -25,47 +37,56 @@ header {
   text-align: center;
 }
 
-.location {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: rgba(236, 234, 234, 0.397);
-}
-
-.location .fa-map-marker-alt {
-  padding: 1rem;
-}
-
-.Slight {
-  text-align: center;
-}
-.Slight H1 {
-  font-size: -webkit-xxx-large;
-  margin: 0%;
-}
-.Slight p {
-  font-size: large;
-  margin: 0%;
-}
-.Slight button {
+article button {
   background-image: linear-gradient(#ff79da, #9356dc);
   color: white;
   font-size: large;
   cursor: pointer;
   border-radius: 2rem 2rem 2rem 2rem;
-  padding: 1% 20% 1% 20%;
+  padding: 1% 25% 1% 25%;
   margin: 1rem;
 }
 
-section {
-  margin: 1rem;
-}
 section img {
   height: 15rem;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+}
+section article {
+  margin-top: -4rem;
   border-radius: 2rem 2rem 0 0;
+  background-color: #f6f6f6;
+  position: relative;
+}
+section article ul {
+  padding: 0%;
+}
+section article li {
+  list-style: none;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 1rem 0rem;
+}
+section article h1 {
+  font-family: "Shrikhand";
+  font-size: x-large;
+  padding-left: 1rem;
+  margin: 0%;
+}
+section article h2 {
+  padding-left: 1rem;
+  margin: 0%;
+}
+section article h3 {
+  padding-left: 1rem;
+  margin: 0%;
+}
+section article p {
+  padding-left: 1rem;
+  margin: 0%;
 }
 
 footer {

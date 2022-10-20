@@ -44,12 +44,11 @@ header {
 
 .Slight {
   text-align: center;
+  margin: 5%;
   H1 {
-    font-size: 2rem;
     margin: 0%;
   }
   p {
-    font-size: 1rem;
     margin: 0%;
     color: gray;
   }
@@ -74,19 +73,24 @@ header {
     right: 28px;
     padding: 4px 8px;
   }
+  .title_Functioning {
+    margin: 0;
+    font-size: medium;
+    padding: 10px 0px 0px 0px;
+  }
   li {
-    display: flex;
-    background-color: #f6f6f6;
-    margin: 1rem;
-    padding: 1rem;
-    box-shadow: 4px 4px 2px lightgrey;
-    border-radius: 20px 20px;
-    text-align: center;
-    height: 58px;
-    i {
-      padding: 22px;
-      color: grey;
-    }
+  display: flex;
+  background-color: #f6f6f6;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 4px 4px 2px lightgrey;
+  border-radius: 20px 20px;
+  text-align: center;
+  height: 58px;
+  }
+  i {
+    padding: 22px;
+    color: grey;
   }
 }
 
@@ -97,7 +101,7 @@ header {
     padding: 1rem 0 0 1rem;
   }
   article {
-    margin: 3rem;
+    margin: 1rem;
     background-color: white;
     border-radius: 30px 30px 30px 30px;
     a {
