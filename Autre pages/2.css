@@ -7,7 +7,6 @@
 header {
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
   background-color: white;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -73,7 +72,7 @@ section article li {
 section article h1 {
   font-family: "Shrikhand";
   font-size: x-large;
-  padding-left: 1rem;
+  padding: 2rem 0rem 2rem 1rem;
   margin: 0%;
 }
 section article h2 {
@@ -96,6 +95,7 @@ footer {
 }
 footer h2 {
   font-family: "Shrikhand";
+  font-weight: normal;
 }
 footer nav {
   list-style: none;
