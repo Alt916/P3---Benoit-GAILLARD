@@ -19,8 +19,8 @@ header i {
   position: absolute;
   left: 2rem;
   top: 27%;
-  display: flex;
   color: #000;
+  cursor: pointer;
 }
 header img {
   height: 30%;
@@ -79,6 +79,14 @@ section article h1 {
 section article h2 {
   padding-left: 1rem;
   margin: 0%;
+}
+section article h2:after {
+  content: "";
+  background: var(--colorTertiaire);
+  height: 4px;
+  width: 40px;
+  display: block;
+  margin-top: 5px;
 }
 section article h3 {
   padding-left: 1rem;

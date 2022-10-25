@@ -8,7 +8,9 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 20%);
+  z-index: 1;
+  opacity: 90%;
   img {
     height: 30%;
     width: 30%;
@@ -35,10 +37,13 @@ header {
 
 .location {
   .fa-map-marker-alt {
-    padding: 1rem;
+    padding: 1rem 0rem;
   }
-  form {
-    margin: 1rem 0rem;
+  input {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 7rem;
   }
 }
 
@@ -58,8 +63,9 @@ header {
     font-size: large;
     cursor: pointer;
     border-radius: 2rem 2rem 2rem 2rem;
-    padding: 1% 20% 1% 20%;
+    padding: 2% 30% 2% 30%;
     margin: 1rem;
+    border: none;
   }
 }
 
@@ -79,14 +85,14 @@ header {
     padding: 10px 0px 0px 0px;
   }
   li {
-  display: flex;
-  background-color: #f6f6f6;
-  margin: 1rem;
-  padding: 1rem;
-  box-shadow: 4px 4px 2px lightgrey;
-  border-radius: 20px 20px;
-  text-align: center;
-  height: 58px;
+    display: flex;
+    background-color: #f6f6f6;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 4px 4px 2px lightgrey;
+    border-radius: 20px 20px;
+    text-align: center;
+    height: 58px;
   }
   i {
     padding: 22px;

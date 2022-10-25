@@ -17,8 +17,8 @@ header {
     position: absolute;
     left: 2rem;
     top: 27%;
-    display: flex;
     color: #000;
+    cursor: pointer;
   }
   img {
     height: 30%;
@@ -69,10 +69,10 @@ section {
       background-color: white;
       margin: 1rem;
       border-radius: 15px 15px 15px 15px;
-      box-shadow: .25rem .25rem 1rem rgba(0,0,0,.1);
+      box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
       padding: 1rem 0rem;
     }
-    
+
     h1 {
       font-family: "Shrikhand";
       font-size: x-large;
@@ -80,36 +80,45 @@ section {
       margin: 0%;
     }
 
-      h2 {
-        padding-left: 1rem;
-        margin: 0%;
-      }
-
-      h3 {
-        padding-left: 1rem;
-        margin: 0%;
-      }
-      p {
-        padding-left: 1rem;
-        margin: 0%;
-      }
-  }
-  }
-  footer {
-    background-color: rgba(0, 0, 0, 0.789);
-    color: white;
-    padding: 2rem;
-
     h2 {
-      font-family: "Shrikhand";
-      font-weight: normal;
+      padding-left: 1rem;
+      margin: 0%;
     }
 
-    nav {
-      list-style: none;
+    h2:after {
+      content: "";
+      background: var(--colorTertiaire);
+      height: 4px;
+      width: 40px;
+      display: block;
+      margin-top: 5px;
     }
-    a {
-      text-decoration: none;
-      color: white;
+
+    h3 {
+      padding-left: 1rem;
+      margin: 0%;
+    }
+    p {
+      padding-left: 1rem;
+      margin: 0%;
     }
   }
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.789);
+  color: white;
+  padding: 2rem;
+
+  h2 {
+    font-family: "Shrikhand";
+    font-weight: normal;
+  }
+
+  nav {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}

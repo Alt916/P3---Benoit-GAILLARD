@@ -10,6 +10,8 @@ header {
   top: 0;
   background-color: white;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 90%;
 }
 header img {
   height: 30%;
@@ -35,10 +37,13 @@ header {
 }
 
 .location .fa-map-marker-alt {
-  padding: 1rem;
+  padding: 1rem 0rem;
 }
-.location form {
-  margin: 1rem 0rem;
+.location input {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  width: 7rem;
 }
 
 .Slight {
@@ -58,8 +63,9 @@ header {
   font-size: large;
   cursor: pointer;
   border-radius: 2rem 2rem 2rem 2rem;
-  padding: 1% 20% 1% 20%;
+  padding: 2% 30% 2% 30%;
   margin: 1rem;
+  border: none;
 }
 
 .Functioning {
