@@ -122,6 +122,36 @@ header {
   width: 100%;
   border-radius: 2rem 2rem 0 0;
 }
+.Restaurant article .icons {
+  display: flex;
+  justify-content: flex-end;
+  font-size: x-large;
+}
+.Restaurant article .ActionIcone {
+  position: relative;
+  margin: 5px 1rem 0rem 0rem;
+}
+.Restaurant article .heartOne,
+.Restaurant article .heartTwo {
+  position: absolute;
+  right: 0;
+  transition: 0.5s;
+}
+.Restaurant article .heartOne {
+  color: black;
+}
+.Restaurant article .heartTwo {
+  opacity: 0;
+  background: linear-gradient(70deg, blue, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Restaurant article .ActionIcone:hover .heartOne {
+  opacity: 0;
+}
+.Restaurant article .ActionIcone:hover .heartTwo {
+  opacity: 1;
+}
 .Restaurant article h3 {
   margin: 1rem;
   -webkit-margin-before: 0;

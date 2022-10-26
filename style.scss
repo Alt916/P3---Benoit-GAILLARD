@@ -120,6 +120,37 @@ header {
       width: 100%;
       border-radius: 2rem 2rem 0 0;
     }
+    .icons {
+      display: flex;
+      justify-content: flex-end;
+      font-size: x-large;
+    }
+    .ActionIcone {
+      position: relative;
+      margin: 5px 1rem 0rem 0rem;
+    }
+    .heartOne,
+    .heartTwo {
+      position: absolute;
+      right: 0;
+      transition: 0.5s;
+    }
+    .heartOne {
+      color: black;
+    }
+    .heartTwo {
+      opacity: 0;
+      background: linear-gradient(70deg, blue, pink);
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .ActionIcone:hover .heartOne {
+      opacity: 0;
+    }
+    .ActionIcone:hover .heartTwo {
+      opacity: 1;
+    }
+
     h3 {
       margin: 1rem;
       margin-block-start: 0;
