@@ -28,6 +28,213 @@ header {
   text-align: center;
 }
 
+.Loader {
+  background-image: linear-gradient(#ff79da, #9356dc);
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  cursor: wait;
+  position: fixed;
+  z-index: 5;
+  -webkit-animation: 1s 15s 1 both disparait;
+          animation: 1s 15s 1 both disparait;
+}
+
+.MyLoader {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 37%;
+}
+.MyLoader h1 {
+  text-align: center;
+  color: white;
+  font-family: "Shrikhand";
+  font-weight: normal;
+}
+
+.Chargement {
+  display: block;
+  position: relative;
+  height: 25%;
+  width: 100%;
+  background: #fff;
+  border: 2px solid #fff;
+  color: var(--colorTertiaire);
+  overflow: hidden;
+}
+
+.Chargement::before {
+  content: "";
+  background: var(--colorTertiaire);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  -webkit-animation: loading 15s linear;
+          animation: loading 15s linear;
+}
+
+.Chargement:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+  font-family: "Shrikhand";
+  mix-blend-mode: difference;
+  -webkit-animation: percentage 15s linear;
+          animation: percentage 15s linear;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-webkit-keyframes percentage {
+  0% {
+    content: "0%";
+  }
+  5% {
+    content: "5%";
+  }
+  10% {
+    content: "10%";
+  }
+  20% {
+    content: "20%";
+  }
+  30% {
+    content: "30%";
+  }
+  40% {
+    content: "40%";
+  }
+  50% {
+    content: "50%";
+  }
+  60% {
+    content: "60%";
+  }
+  70% {
+    content: "70%";
+  }
+  80% {
+    content: "80%";
+  }
+  90% {
+    content: "90%";
+  }
+  95% {
+    content: "95%";
+  }
+  96% {
+    content: "96%";
+  }
+  97% {
+    content: "97%";
+  }
+  98% {
+    content: "98%";
+  }
+  99% {
+    content: "99%";
+  }
+  100% {
+    content: "100%";
+  }
+}
+@keyframes percentage {
+  0% {
+    content: "0%";
+  }
+  5% {
+    content: "5%";
+  }
+  10% {
+    content: "10%";
+  }
+  20% {
+    content: "20%";
+  }
+  30% {
+    content: "30%";
+  }
+  40% {
+    content: "40%";
+  }
+  50% {
+    content: "50%";
+  }
+  60% {
+    content: "60%";
+  }
+  70% {
+    content: "70%";
+  }
+  80% {
+    content: "80%";
+  }
+  90% {
+    content: "90%";
+  }
+  95% {
+    content: "95%";
+  }
+  96% {
+    content: "96%";
+  }
+  97% {
+    content: "97%";
+  }
+  98% {
+    content: "98%";
+  }
+  99% {
+    content: "99%";
+  }
+  100% {
+    content: "100%";
+  }
+}
+@-webkit-keyframes disparait {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes disparait {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 .location {
   display: flex;
   justify-content: center;
