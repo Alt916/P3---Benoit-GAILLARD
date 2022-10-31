@@ -113,15 +113,10 @@ header {
     100% { content: "100%"}
   }
   @keyframes disparait {
-    from {
-        transform: scale(1);
-        opacity: 1;
-    }
-
-    to {
-        transform: scale(0);
-        opacity: 0;
-    }
+   0% { opacity: 1; transform: scale(1);}
+   50% { opacity: 0.50;}
+   75% { opacity: 0.15;}
+   100% { opacity: 0; transform: scale(0);}
   }
   
 
