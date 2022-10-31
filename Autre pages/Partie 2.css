@@ -69,6 +69,8 @@ section article li {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
   padding: 1rem 0rem;
+  -webkit-animation: 1s 1s 1 both Menu-Apparition;
+          animation: 1s 1s 1 both Menu-Apparition;
 }
 section article h1 {
   font-family: "Shrikhand";
@@ -97,6 +99,23 @@ section article p {
   margin: 0%;
 }
 
+@-webkit-keyframes Menu-Apparition {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes Menu-Apparition {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 footer {
   background-color: rgba(0, 0, 0, 0.789);
   color: white;

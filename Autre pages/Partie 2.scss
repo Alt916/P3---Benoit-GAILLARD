@@ -71,6 +71,7 @@ section {
       border-radius: 15px 15px 15px 15px;
       box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
       padding: 1rem 0rem;
+      animation:1s 1s 1 both Menu-Apparition
     }
 
     h1 {
@@ -104,6 +105,11 @@ section {
     }
   }
 }
+    @keyframes Menu-Apparition {
+      0% {transform: scale(0);}
+      100% {transform: scale(1);
+      }
+     }
 footer {
   background-color: rgba(0, 0, 0, 0.789);
   color: white;
