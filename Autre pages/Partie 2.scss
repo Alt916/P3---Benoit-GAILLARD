@@ -36,7 +36,93 @@ header {
   text-align: center;
 }
 
-article {
+
+.cont {
+  background-color: white;
+  margin: 1rem;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
+  }
+
+  h3 {
+      padding-left: 1rem;
+      margin: 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+  }
+
+  .plat {
+      padding:10px;
+      flex:1;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+  }
+
+  p {
+      margin:0;
+      padding-left: 1rem;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+  }
+
+  .price {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 2rem;
+      margin: 0%;
+  }
+
+  .check {
+      background-color: var(--colorTertiaire);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0 15px 15px 0;
+      width: 0px;
+      overflow: hidden;
+      transition: 2s;
+  }
+
+  .cont:hover .check {
+      width: 100px
+  }
+
+  .cont:hover .check span {
+      animation: 2s 5ms 1 both roue;
+  }
+
+  @keyframes roue {
+      0% {
+          transform: rotate(180deg);
+      }
+
+      100% {
+          transform: rotate(0deg);
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   button {
     background-image: linear-gradient(#ff79da, #9356dc);
     color: white;
@@ -46,8 +132,8 @@ article {
     padding: 1% 25% 1% 25%;
     margin: 2% 20%;
     border: none;
+    box-shadow: rgba(149, 157, 165, 1.2) 0 0.6rem 1rem;
   }
-}
 
 section {
   img {
@@ -60,81 +146,6 @@ section {
     border-radius: 2rem 2rem 0 0;
     background-color: #f6f6f6;
     position: relative;
-
-    ul {
-      padding: 0;
-    }
-
-    li {
-      text-overflow: ellipsis;
-      overflow: hidden;
-      white-space: nowrap;
-      list-style: none;
-      background-color: white;
-      margin: 1rem;
-      border-radius: 15px 15px 15px 15px;
-      box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
-      padding: 1rem 0rem;
-      animation: 1s 1s 1 both Menu-Apparition;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      align-content: center;
-    }
-    .euros {
-      display: flex;
-      justify-content: flex-end;
-      flex: 1;
-      padding: 1rem;
-    }
-
-    h1 {
-      font-family: "Shrikhand";
-      font-size: x-large;
-      padding: 2rem 0rem 2rem 1rem;
-      margin: 0%;
-    }
-
-    h2 {
-      padding-left: 1rem;
-      margin: 0%;
-    }
-
-    h2:after {
-      content: "";
-      background: var(--colorTertiaire);
-      height: 4px;
-      width: 40px;
-      display: block;
-      margin-top: 5px;
-    }
-
-    h3 {
-      padding-left: 1rem;
-      margin: 0%;
-    }
-    p {
-      padding-left: 1rem;
-      margin: 0%;
-    }
-  }
-}
-.Check-icons {
-background: aqua;
-    position: absolute;
-    right: -1rem;
-    animation: 1s 1s 1 both Check-Action;
-}
-@keyframes Check-Action {
-  
-}
-
-@keyframes Menu-Apparition {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
   }
 }
 footer {
