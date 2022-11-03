@@ -4,11 +4,15 @@
   --colorTertiaire: #99e2d0;
 }
 
+/********************
+****Partie Header****
+*********************/
 header {
   position: -webkit-sticky;
   position: sticky;
   background-color: white;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 header a {
   color: -webkit-link;
@@ -28,15 +32,72 @@ header img {
   margin: 1rem;
 }
 
+/***********
+****Body****
+***********/
 body {
   font-family: "Roboto";
   margin: 0%;
 }
 
-header {
-  text-align: center;
+main img {
+  max-width: 100%;
+  max-height: 32rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
+/**********
+***Titre***
+***********/
+section {
+  margin-top: -4rem;
+  border-radius: 2rem 2rem 0 0;
+  background-color: #f6f6f6;
+  position: relative;
+  padding: 2rem;
+}
+section div h1 {
+  font-family: "Shrikhand";
+  margin: 1rem;
+}
+section div div .icons {
+  display: flex;
+  justify-content: flex-end;
+  font-size: x-large;
+}
+section div div .ActionIcone {
+  position: relative;
+  margin: 5px 1rem 0rem 0rem;
+}
+section div div .heartOne,
+section div div .heartTwo {
+  font-size: xx-large;
+  position: absolute;
+  right: 1rem;
+  top: -3.1rem;
+  transition: 0.5s;
+}
+section div div .heartOne {
+  color: black;
+}
+section div div .heartTwo {
+  opacity: 0;
+  background: linear-gradient(70deg, blue, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section div div .ActionIcone:hover .heartOne {
+  opacity: 0;
+}
+section div div .ActionIcone:hover .heartTwo {
+  opacity: 1;
+}
+
+/*********************
+****Vignette plats****
+**********************/
 .cont {
   background-color: white;
   margin: 1rem;
@@ -116,6 +177,9 @@ p {
     transform: rotate(0deg);
   }
 }
+/********************
+***Bouton Commande***
+*********************/
 button {
   background-image: linear-gradient(#ff79da, #9356dc);
   color: white;
@@ -128,19 +192,9 @@ button {
   box-shadow: rgb(149, 157, 165) 0 0.6rem 1rem;
 }
 
-section img {
-  height: 15rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-}
-section article {
-  margin-top: -4rem;
-  border-radius: 2rem 2rem 0 0;
-  background-color: #f6f6f6;
-  position: relative;
-}
-
+/******************
+***Partie Footer***
+******************/
 footer {
   background-color: rgba(0, 0, 0, 0.789);
   color: white;
