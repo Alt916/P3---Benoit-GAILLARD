@@ -44,7 +44,8 @@ article button {
   cursor: pointer;
   border-radius: 2rem 2rem 2rem 2rem;
   padding: 1% 25% 1% 25%;
-  margin: 1rem;
+  margin: 2% 20%;
+  border: none;
 }
 
 section img {
@@ -60,9 +61,12 @@ section article {
   position: relative;
 }
 section article ul {
-  padding: 0%;
+  padding: 0;
 }
 section article li {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   list-style: none;
   background-color: white;
   margin: 1rem;
@@ -71,6 +75,16 @@ section article li {
   padding: 1rem 0rem;
   -webkit-animation: 1s 1s 1 both Menu-Apparition;
           animation: 1s 1s 1 both Menu-Apparition;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+section article .euros {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  padding: 1rem;
 }
 section article h1 {
   font-family: "Shrikhand";
@@ -99,6 +113,17 @@ section article p {
   margin: 0%;
 }
 
+.Check-icons {
+  background: aqua;
+  position: absolute;
+  right: -1rem;
+  -webkit-animation: 1s 1s 1 both Check-Action;
+          animation: 1s 1s 1 both Check-Action;
+}
+
+@-webkit-keyframes Check-Action {}
+
+@keyframes Check-Action {}
 @-webkit-keyframes Menu-Apparition {
   0% {
     transform: scale(0);
@@ -107,7 +132,6 @@ section article p {
     transform: scale(1);
   }
 }
-
 @keyframes Menu-Apparition {
   0% {
     transform: scale(0);

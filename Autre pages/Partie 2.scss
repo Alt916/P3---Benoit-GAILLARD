@@ -44,7 +44,8 @@ article {
     cursor: pointer;
     border-radius: 2rem 2rem 2rem 2rem;
     padding: 1% 25% 1% 25%;
-    margin: 1rem;
+    margin: 2% 20%;
+    border: none;
   }
 }
 
@@ -61,17 +62,30 @@ section {
     position: relative;
 
     ul {
-      padding: 0%;
+      padding: 0;
     }
 
     li {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
       list-style: none;
       background-color: white;
       margin: 1rem;
       border-radius: 15px 15px 15px 15px;
       box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
       padding: 1rem 0rem;
-      animation:1s 1s 1 both Menu-Apparition
+      animation: 1s 1s 1 both Menu-Apparition;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+    }
+    .euros {
+      display: flex;
+      justify-content: flex-end;
+      flex: 1;
+      padding: 1rem;
     }
 
     h1 {
@@ -105,11 +119,24 @@ section {
     }
   }
 }
-    @keyframes Menu-Apparition {
-      0% {transform: scale(0);}
-      100% {transform: scale(1);
-      }
-     }
+.Check-icons {
+background: aqua;
+    position: absolute;
+    right: -1rem;
+    animation: 1s 1s 1 both Check-Action;
+}
+@keyframes Check-Action {
+  
+}
+
+@keyframes Menu-Apparition {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 footer {
   background-color: rgba(0, 0, 0, 0.789);
   color: white;
