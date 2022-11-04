@@ -42,7 +42,7 @@ body {
 
 main img {
   max-width: 100%;
-  max-height: 32rem;
+  max-height: 13rem;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -56,11 +56,12 @@ section {
   border-radius: 2rem 2rem 0 0;
   background-color: #f6f6f6;
   position: relative;
-  padding: 2rem;
+  padding: 1rem;
 }
 section div h1 {
   font-family: "Shrikhand";
-  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 section div div .icons {
   display: flex;
@@ -69,11 +70,10 @@ section div div .icons {
 }
 section div div .ActionIcone {
   position: relative;
-  margin: 5px 1rem 0rem 0rem;
 }
 section div div .heartOne,
 section div div .heartTwo {
-  font-size: xx-large;
+  font-size: x-large;
   position: absolute;
   right: 1rem;
   top: -3.1rem;
@@ -98,14 +98,9 @@ section div div .ActionIcone:hover .heartTwo {
 /*********************
 ****Vignette plats****
 **********************/
-.Titre:after {
-    content: "";
-    background: var(--colorTertiaire);
-    height: 4px;
-    width: 40px;
-    display: block;
-    margin-top: 5px;
-  }
+h2 {
+  font-size: large;
+}
 
 .cont {
   background-color: white;
@@ -195,8 +190,8 @@ button {
   font-size: large;
   cursor: pointer;
   border-radius: 2rem 2rem 2rem 2rem;
-  padding: 1% 25% 1% 25%;
-  margin: 2% 20%;
+  padding: 1% 30%;
+  margin: 5%;
   border: none;
   box-shadow: rgb(149, 157, 165) 0 0.6rem 1rem;
 }
