@@ -98,6 +98,15 @@ section div div .ActionIcone:hover .heartTwo {
 /*********************
 ****Vignette plats****
 **********************/
+.Titre:after {
+    content: "";
+    background: var(--colorTertiaire);
+    height: 4px;
+    width: 40px;
+    display: block;
+    margin-top: 5px;
+  }
+
 .cont {
   background-color: white;
   margin: 1rem;
