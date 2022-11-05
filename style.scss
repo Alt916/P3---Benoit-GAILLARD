@@ -337,7 +337,7 @@ footer {
   }
 }
 
-/*Responsive mobile*/
+/*Responsive*/
 @media screen and (min-width: 670px) {
 
   header {
@@ -346,4 +346,19 @@ footer {
     }
   }
 
+  .Functioning nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Functioning .title_Functioning {
+   padding: 1.4rem 1rem;
+  }
+
+  .Carte {
+    display: flex;
+    article {
+      width: 25%;
+    }
+  }
 }

@@ -424,9 +424,23 @@ footer a {
   color: white;
 }
 
-/*Responsive mobile*/
+/*Responsive*/
 @media screen and (min-width: 670px) {
   header img {
     width: 15%;
+  }
+  .Functioning nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Functioning .title_Functioning {
+    padding: 1.4rem 1rem;
+  }
+  .Carte {
+    display: flex;
+  }
+  .Carte article {
+    width: 25%;
   }
 }/*# sourceMappingURL=style.css.map */
