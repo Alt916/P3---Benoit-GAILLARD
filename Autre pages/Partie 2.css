@@ -234,4 +234,11 @@ footer nav {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+/*Responsive*/
+@media screen and (min-width: 670px) {
+  header img {
+    width: 15%;
+  }
 }/*# sourceMappingURL=Partie 2.css.map */

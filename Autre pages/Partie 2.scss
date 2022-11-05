@@ -232,3 +232,14 @@ footer {
     color: white;
   }
 }
+
+
+/*Responsive*/
+@media screen and (min-width: 670px) {
+
+  header {
+    img {
+      width: 15%;
+    }
+  }
+}
