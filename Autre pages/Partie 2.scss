@@ -41,6 +41,7 @@ body {
 }
 
 main {
+  background-color: #f6f6f6;
   img {
     max-width: 100%;
     max-height: 13rem;
@@ -105,11 +106,21 @@ section {
 
 h2 {
   font-size: large;
+  margin: 2rem 0rem;
+
+}
+.Titre:after {
+  content: "";
+  background: var(--colorTertiaire);
+  height: 4px;
+  width: 40px;
+  display: block;
+  margin-top: 5px;
 }
 
 .cont {
   background-color: white;
-  margin: 1rem;
+  margin: 1rem 0rem;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
   display: flex;
@@ -119,7 +130,7 @@ h2 {
 }
 
 h3 {
-  padding-left: 1rem;
+  padding-left: 5px;
   margin: 0;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -127,7 +138,7 @@ h3 {
 }
 
 .plat {
-  padding: 10px;
+  padding: 1rem 0rem;
   flex: 1;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -136,7 +147,7 @@ h3 {
 
 p {
   margin: 0;
-  padding-left: 1rem;
+  padding-left: 5px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -147,6 +158,13 @@ p {
   padding-right: 1rem;
   padding-top: 2rem;
   margin: 0%;
+}
+
+.fa-check {
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  color: var(--colorTertiaire);
 }
 
 .check {
@@ -188,7 +206,7 @@ button {
   cursor: pointer;
   border-radius: 2rem 2rem 2rem 2rem;
   padding: 1% 30%;
-  margin: 5%;
+  margin: 10%;
   border: none;
   box-shadow: rgba(149, 157, 165, 1.2) 0 0.6rem 1rem;
 }
