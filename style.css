@@ -422,4 +422,11 @@ footer nav {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+/*Responsive mobile*/
+@media screen and (min-width: 670px) {
+  header img {
+    width: 15%;
+  }
 }/*# sourceMappingURL=style.css.map */
