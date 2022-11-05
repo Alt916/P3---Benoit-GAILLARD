@@ -209,6 +209,9 @@ header {
     margin: 1rem;
     border: none;
   }
+  button:hover {
+    filter: drop-shadow(0 0 0.5rem rgb(148, 70, 222));
+  }
 }
 
 .Functioning {
@@ -235,11 +238,19 @@ header {
     border-radius: 20px 20px;
     text-align: center;
     height: 58px;
+    transition: transform .1s;
   }
   i {
     padding: 22px;
     color: grey;
   }
+}
+.Functioning li:hover {
+  background-color: rgb(214, 170, 255);
+  transform: scale(1.05);
+}
+.Functioning i:hover {
+  color: #9356dc;
 }
 
 .Restaurant {
@@ -252,6 +263,7 @@ header {
     margin: 1rem;
     background-color: white;
     border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 5px 5px 0px rgb(220 220 220);
   }
   a {
     text-decoration: none;
