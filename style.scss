@@ -253,6 +253,25 @@ header {
   color: #9356dc;
 }
 
+.News_green {
+background-color: #99e2d0;
+    color: #1b6150;
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    position: relative;
+    top: -12rem;
+    left: 22.75rem;
+}
+.News_Green2 {
+  background-color: #99e2d0;
+    color: #1b6150;
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    position: relative;
+    top: -12rem;
+    left: 30rem;
+}
+
 .Restaurant {
   height: 100%;
   background-color: rgba(210, 210, 210, 0.33);
@@ -338,12 +357,22 @@ footer {
 }
 
 /*Responsive*/
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 992px) {
 
   header {
     img {
       width: 15%;
     }
+  }
+
+
+  .News_green {
+    top: -12rem;
+    left: 8.75rem;
+  }
+  .News_Green2 {
+      top: -12rem;
+      left: -8rem;
   }
 
   .Functioning nav {
