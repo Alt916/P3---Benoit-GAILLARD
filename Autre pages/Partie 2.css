@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --colorPrimaire: #9356dc;
   --colorSecondaire: #ff79da;
@@ -101,6 +102,38 @@ section div div .ActionIcone:hover .heartTwo {
 /*********************
 ****Vignette plats****
 **********************/
+.Entrée-block {
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s;
+}
+
+.Plat-block {
+  -webkit-animation: fadein 5s;
+          animation: fadein 5s;
+}
+
+.Dessert-block {
+  -webkit-animation: fadein 10s;
+          animation: fadein 10s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 h2 {
   font-size: large;
   margin: 2rem 0rem;

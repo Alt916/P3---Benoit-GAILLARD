@@ -103,6 +103,29 @@ section {
 /*********************
 ****Vignette plats****
 **********************/
+  .Entrée-block {
+    
+    animation: fadein 1s;
+}
+
+.Plat-block {
+  animation: fadein 5s;
+}
+
+.Dessert-block {
+  animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
 
 h2 {
   font-size: large;
