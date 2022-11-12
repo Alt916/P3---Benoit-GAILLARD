@@ -291,9 +291,10 @@ header {
   padding: 2% 30% 2% 30%;
   margin: 1rem;
   border: none;
+  box-shadow: 8px 8px 8px grey;
 }
 .Slight button:hover {
-  filter: drop-shadow(0 0 0.5rem rgb(148, 70, 222));
+  box-shadow: 10px 10px 10px lightgray;
 }
 
 .Functioning {
@@ -337,26 +338,6 @@ header {
   color: #9356dc;
 }
 
-.News_green {
-  background-color: #99e2d0;
-  color: #1b6150;
-  padding: 0.5rem;
-  border-radius: 0.125rem;
-  position: relative;
-  top: -12rem;
-  left: 22.75rem;
-}
-
-.News_Green2 {
-  background-color: #99e2d0;
-  color: #1b6150;
-  padding: 0.5rem;
-  border-radius: 0.125rem;
-  position: relative;
-  top: -12rem;
-  left: 30rem;
-}
-
 .Restaurant {
   height: 100%;
   background-color: rgba(210, 210, 210, 0.33);
@@ -376,10 +357,10 @@ header {
 }
 .Restaurant img {
   height: 13rem;
-  -o-object-fit: cover;
-     object-fit: cover;
   width: 100%;
   border-radius: 2rem 2rem 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .Restaurant .icons {
   display: flex;
@@ -444,10 +425,18 @@ footer a {
   color: white;
 }
 
-/*Responsive*/
-@media screen and (min-width: 992px) {
+/*Responsive ordinateur*/
+@media screen and (min-width: 1000px) {
   header img {
     width: 15%;
+  }
+  .Slight {
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Slight button {
+    padding: 1% 15% 1% 15%;
   }
   .News_green {
     top: -12rem;
@@ -460,15 +449,51 @@ footer a {
   .Functioning nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .Functioning .title_Functioning {
     padding: 1.4rem 1rem;
   }
   .Carte {
     display: flex;
+    flex-wrap: wrap;
   }
   .Carte article {
-    width: 25%;
+    width: 22%;
+  }
+}
+/*Responsive Tablette*/
+@media screen and (min-width: 700px) {
+  header img {
+    width: 15%;
+  }
+  .Slight H1 {
+    padding: 1rem;
+  }
+  .News_green {
+    top: -12rem;
+    left: 8.75rem;
+  }
+  .News_Green2 {
+    top: -12rem;
+    left: -8rem;
+  }
+  .Functioning nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Functioning .title_Functioning {
+    padding: 1rem;
+  }
+  .Functioning i {
+    padding: 1rem 0rem;
+  }
+  .Carte {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Carte article {
+    width: 45%;
   }
 }/*# sourceMappingURL=style.css.map */

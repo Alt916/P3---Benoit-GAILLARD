@@ -223,15 +223,19 @@ p {
 ***Bouton Commande***
 *********************/
 button {
-  background-image: linear-gradient(#ff79da, #9356dc);
+  background-image: linear-gradient(#f72bbd, #8730f3);
   color: white;
   font-size: large;
   cursor: pointer;
   border-radius: 2rem 2rem 2rem 2rem;
-  padding: 1% 30%;
-  margin: 10%;
+  padding: 2% 30% 2% 30%;
+  margin: 1rem 1rem;
   border: none;
-  box-shadow: rgba(149, 157, 165, 1.2) 0 0.6rem 1rem;
+  box-shadow: 10px 10px 10px gray;
+}
+button:hover {
+  box-shadow: 8px 8px 8px rgb(59, 59, 59);
+  background-image: linear-gradient(#ff79da, #9653e7);
 }
 
 /******************
@@ -257,12 +261,26 @@ footer {
 }
 
 
-/*Responsive*/
-@media screen and (min-width: 670px) {
+/*Responsive tablette*/
+@media screen and (min-width: 700px) {
 
   header {
     img {
       width: 15%;
     }
   }
+  button {
+    margin: 2rem 8rem;
+    padding: 2% 25% 2% 25%;
+  }
+}
+
+/*Responsive ordinateur*/
+@media screen and (min-width: 1000px) {
+
+  button {
+    margin: 2rem 21rem;
+    padding: 1% 20% 1% 20%;
+  }
+
 }
