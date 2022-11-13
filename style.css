@@ -417,7 +417,7 @@ footer h2 {
   font-family: "Shrikhand";
   font-weight: normal;
 }
-footer nav {
+footer ul {
   list-style: none;
 }
 footer a {
@@ -437,14 +437,6 @@ footer a {
   }
   .Slight button {
     padding: 1% 15% 1% 15%;
-  }
-  .News_green {
-    top: -12rem;
-    left: 8.75rem;
-  }
-  .News_Green2 {
-    top: -12rem;
-    left: -8rem;
   }
   .Functioning nav {
     display: flex;
@@ -470,15 +462,7 @@ footer a {
   .Slight H1 {
     padding: 1rem;
   }
-  .News_green {
-    top: -12rem;
-    left: 8.75rem;
-  }
-  .News_Green2 {
-    top: -12rem;
-    left: -8rem;
-  }
-  .Functioning nav {
+  .Functioning ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -493,7 +477,7 @@ footer a {
     display: flex;
     flex-wrap: wrap;
   }
-  .Carte article {
+  article {
     width: 45%;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -329,7 +329,7 @@ footer {
     font-weight: normal;
   }
 
-  nav {
+  ul {
     list-style: none;
   }
   a {
@@ -354,16 +354,6 @@ footer {
     button {
       padding: 1% 15% 1% 15%;
     }
-  }
-  
-
-  .News_green {
-    top: -12rem;
-    left: 8.75rem;
-  }
-  .News_Green2 {
-      top: -12rem;
-      left: -8rem;
   }
 
   .Functioning nav {
@@ -396,18 +386,8 @@ footer {
   .Slight H1 {
     padding: 1rem;
   }
-  
 
-  .News_green {
-    top: -12rem;
-    left: 8.75rem;
-  }
-  .News_Green2 {
-      top: -12rem;
-      left: -8rem;
-  }
-
-  .Functioning nav {
+  .Functioning ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -422,8 +402,8 @@ footer {
   .Carte {
     display: flex;
     flex-wrap: wrap;
+  }
     article {
       width: 45%;
     }
   }
-}
