@@ -240,7 +240,7 @@ header {
     border-radius: 20px 20px;
     text-align: center;
     height: 58px;
-    transition: transform .1s;
+    transition: transform 0.1s;
   }
   i {
     padding: 22px;
@@ -349,7 +349,6 @@ footer {
 
 /*Responsive ordinateur*/
 @media screen and (min-width: 1000px) {
-
   header {
     img {
       width: 15%;
@@ -371,7 +370,7 @@ footer {
     justify-content: space-evenly;
   }
   .Functioning .title_Functioning {
-   padding: 1.4rem 1rem;
+    padding: 1.4rem 1rem;
   }
 
   .Carte {
@@ -385,7 +384,6 @@ footer {
 
 /*Responsive Tablette*/
 @media screen and (min-width: 700px) {
-
   header {
     img {
       width: 15%;
@@ -402,7 +400,7 @@ footer {
     justify-content: space-evenly;
   }
   .Functioning .title_Functioning {
-   padding: 1rem;
+    padding: 1rem;
   }
   .Functioning i {
     padding: 1rem 0rem;
@@ -412,7 +410,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
-    article {
-      width: 45%;
-    }
+  article {
+    width: 45%;
   }
+}
