@@ -100,6 +100,7 @@ section {
     }
   }
 }
+
 /*********************
 ****Vignette plats****
 **********************/
@@ -281,6 +282,33 @@ footer {
   button {
     margin: 2rem 21rem;
     padding: 1% 20% 1% 20%;
+  }
+
+  .Menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main {
+    img {
+      max-height: 25rem;
+    }
+  }
+  footer {
+    h2 {
+      text-align: center;
+      font-size: xxx-large;
+    }
+    h2:hover {
+      color: var(--colorTertiaire);
+    }
+    nav {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    li:hover, a:hover {
+      color: var(--colorPrimaire);
+    }
   }
 
 }

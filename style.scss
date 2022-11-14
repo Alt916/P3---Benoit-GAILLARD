@@ -200,7 +200,7 @@ header {
     color: gray;
   }
   button {
-    background-image: linear-gradient(#ff79da, #9356dc);
+    background-image: linear-gradient(#f72bbd, #8730f3);
     color: white;
     font-size: large;
     cursor: pointer;
@@ -208,10 +208,11 @@ header {
     padding: 2% 30% 2% 30%;
     margin: 1rem;
     border: none;
-    box-shadow: 8px 8px 8px grey;
+    box-shadow: 10px 10px 10px gray;
   }
   button:hover {
-    box-shadow: 10px 10px 10px lightgray;
+    box-shadow: 8px 8px 8px rgb(59, 59, 59);
+    background-image: linear-gradient(#ff79da, #9653e7);
   }
 }
 
@@ -265,10 +266,18 @@ header {
     background-color: white;
     border-radius: 30px 30px 30px 30px;
     box-shadow: 0px 5px 5px 0px rgb(220 220 220);
+    position: relative;
   }
   a {
     text-decoration: none;
     color: black;
+  }
+  .News {
+    position: absolute;
+    background-color: #99e2d0;
+    right: 1rem;
+    top: 1rem;
+    padding: 5px;
   }
   img {
     height: 13rem;
