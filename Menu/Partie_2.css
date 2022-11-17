@@ -266,7 +266,7 @@ footer h2 {
   font-family: "Shrikhand";
   font-weight: normal;
 }
-footer nav {
+footer nav ul {
   list-style: none;
 }
 footer a {
@@ -323,8 +323,14 @@ footer a {
 }
 /*Responsive ordinateur*/
 @media screen and (min-width: 1000px) {
+  .Menu > div {
+    width: 31%;
+  }
+  .commander {
+    text-align: center;
+  }
   button {
-    margin: 2rem 21rem;
+    margin: 2rem 0;
     padding: 1% 20% 1% 20%;
   }
   .Menu {
@@ -344,6 +350,9 @@ footer a {
   footer nav {
     display: flex;
     justify-content: space-evenly;
+  }
+  footer nav ul {
+    list-style: none;
   }
   footer li:hover, footer a:hover {
     color: var(--colorPrimaire);
