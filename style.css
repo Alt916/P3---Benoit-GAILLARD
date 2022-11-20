@@ -261,7 +261,7 @@ header {
 }
 
 .location .fa-map-marker-alt {
-  padding: 1rem 0rem;
+  padding: 10px 5px;
 }
 .location input {
   background-color: transparent;
@@ -276,7 +276,7 @@ header {
   margin: 5%;
 }
 .Slight H1 {
-  margin: 0%;
+  margin: 2%;
 }
 .Slight p {
   margin: 0%;
@@ -288,7 +288,7 @@ header {
   font-size: large;
   cursor: pointer;
   border-radius: 2rem 2rem 2rem 2rem;
-  padding: 2% 30% 2% 30%;
+  padding: 4% 5% 4% 5%;
   margin: 1rem;
   border: none;
   box-shadow: 10px 10px 10px gray;
@@ -326,7 +326,7 @@ header {
   transition: transform 0.1s;
 }
 .Functioning i {
-  padding: 22px;
+  padding: 13px;
   color: grey;
 }
 
@@ -363,6 +363,8 @@ header {
   right: 1rem;
   top: 1rem;
   padding: 5px;
+  color: green;
+  border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
 }
 .Restaurant img {
   height: 13rem;
@@ -391,7 +393,7 @@ header {
 }
 .Restaurant .heartTwo {
   opacity: 0;
-  background: linear-gradient(70deg, blue, pink);
+  background: linear-gradient(25deg, #ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -415,6 +417,8 @@ header {
           margin-block-start: 0;
   -webkit-margin-after: 0;
           margin-block-end: 0;
+  font-weight: lighter;
+  color: grey;
 }
 
 footer {
@@ -428,6 +432,10 @@ footer h2 {
 }
 footer ul {
   list-style: none;
+  padding: 0rem;
+}
+footer li {
+  margin: 5px 0px;
 }
 footer a {
   text-decoration: none;

@@ -56,46 +56,46 @@ main img {
 ***Titre***
 ***********/
 section {
-  margin-top: -4rem;
+  margin-top: -2rem;
   border-radius: 2rem 2rem 0 0;
   background-color: #f6f6f6;
   position: relative;
   padding: 1rem;
 }
-section div h1 {
+section h1 {
   font-family: "Shrikhand";
   font-size: 1.5rem;
   font-weight: normal;
 }
-section div div .icons {
+section div .icons {
   display: flex;
   justify-content: flex-end;
   font-size: x-large;
 }
-section div div .ActionIcone {
+section div .ActionIcone {
   position: relative;
 }
-section div div .heartOne,
-section div div .heartTwo {
+section div .heartOne,
+section div .heartTwo {
   font-size: x-large;
   position: absolute;
   right: 1rem;
   top: -3.1rem;
   transition: 0.5s;
 }
-section div div .heartOne {
+section div .heartOne {
   color: black;
 }
-section div div .heartTwo {
+section div .heartTwo {
   opacity: 0;
   background: linear-gradient(70deg, blue, pink);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-section div div .ActionIcone:hover .heartOne {
+section div .ActionIcone:hover .heartOne {
   opacity: 0;
 }
-section div div .ActionIcone:hover .heartTwo {
+section div .ActionIcone:hover .heartTwo {
   opacity: 1;
 }
 
@@ -137,6 +137,7 @@ section div div .ActionIcone:hover .heartTwo {
 h2 {
   font-size: large;
   margin: 2rem 0rem;
+  font-weight: lighter;
 }
 
 .Titre:after {
@@ -181,6 +182,8 @@ p {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  color: grey;
+  font-weight: lighter;
 }
 
 .price {
@@ -188,6 +191,7 @@ p {
   padding-right: 1rem;
   padding-top: 2rem;
   margin: 0%;
+  color: black;
 }
 
 .fa-check {
@@ -243,8 +247,8 @@ button {
   font-size: large;
   cursor: pointer;
   border-radius: 2rem 2rem 2rem 2rem;
-  padding: 2% 30% 2% 30%;
-  margin: 1rem 1rem;
+  padding: 3% 20% 3% 20%;
+  margin: 1rem 6rem;
   border: none;
   box-shadow: 10px 10px 10px gray;
 }
@@ -266,8 +270,12 @@ footer h2 {
   font-family: "Shrikhand";
   font-weight: normal;
 }
-footer nav ul {
+footer ul {
   list-style: none;
+  padding: 0rem;
+}
+footer li {
+  margin: 5px 0px;
 }
 footer a {
   text-decoration: none;
@@ -298,7 +306,7 @@ footer a {
 
 .heartTwo {
   opacity: 0;
-  background: linear-gradient(70deg, blue, pink);
+  background: linear-gradient(25deg, #ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
