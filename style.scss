@@ -235,12 +235,13 @@ header {
     display: flex;
     background-color: #f6f6f6;
     margin: 1rem;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     box-shadow: 4px 4px 2px lightgrey;
     border-radius: 20px 20px;
     text-align: center;
     height: 58px;
     transition: transform 0.1s;
+    align-items: baseline;
   }
   i {
     padding: 13px;

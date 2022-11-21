@@ -74,13 +74,12 @@ section div .icons {
 }
 section div .ActionIcone {
   position: relative;
+  margin: 5px 1rem 0rem 0rem;
 }
 section div .heartOne,
 section div .heartTwo {
-  font-size: x-large;
   position: absolute;
-  right: 1rem;
-  top: -3.1rem;
+  right: 0;
   transition: 0.5s;
 }
 section div .heartOne {
@@ -88,7 +87,7 @@ section div .heartOne {
 }
 section div .heartTwo {
   opacity: 0;
-  background: linear-gradient(70deg, blue, pink);
+  background: linear-gradient(25deg, #ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -362,7 +361,8 @@ footer a {
   footer nav ul {
     list-style: none;
   }
-  footer li:hover, footer a:hover {
+  footer li:hover,
+footer a:hover {
     color: var(--colorPrimaire);
   }
 }/*# sourceMappingURL=Partie_2.css.map */
